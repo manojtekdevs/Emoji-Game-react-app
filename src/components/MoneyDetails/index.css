@@ -1,0 +1,63 @@
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.money-details-card {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+.money-details-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.money-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.money-indicator {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.money-value {
+  margin-top: 2px;
+  font-size: 22px;
+}
+
+.balance-card {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income-card {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses-card {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .money-details-card {
+    width: 32%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .money-indicator {
+    font-size: 20px;
+  }
+  .money-value {
+    font-size: 24px;
+  }
+}

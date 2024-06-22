@@ -1,0 +1,48 @@
+.transaction-item {
+  width: 100%;
+  border: 2px solid #cbd5e1;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+.transaction-title {
+  width: 33%;
+  color: #1e293b;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.transaction-amount {
+  width: 32%;
+  color: #1e293b;
+  font-size: 18px;
+}
+.transaction-type {
+  width: 25%;
+  color: #1e293b;
+  font-size: 18px;
+}
+.transaction-delete-button {
+  width: 10%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-icon {
+  width: 30px;
+}
+@media screen and (min-width: 768px){
+  .transaction-title {
+    font-size: 22px;
+  }
+  .transaction-amount {
+    font-size: 22px;
+  }
+  .transaction-type {
+    font-size: 22px;
+  }
+}
